@@ -43,7 +43,11 @@ git reset HEAD
 git log  历史提交
 git diff  补丁的格式，哪些暂存，哪些无暂存
 
+git merge 合并到当前分支
+git branch --merged/no-merged  已合并或未合并分支
 
 
 帮助 man git ~~  ;  git help ~~
 git config --list
+命令别名：git config alias.co checkout/'多重命令'
+外部命令：git config alias.co '!命令'
