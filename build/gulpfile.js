@@ -1,8 +1,6 @@
-/*
-* @Author: MengYue
-* @Date:   2016-09-13 16:55:35
-* @Last Modified by:   MengYue
-* @Last Modified time: 2016-09-13 16:55:35
-*/
+var webpack = require('webpack');
+var config = require('./webpack.serve.js')
 
-'use strict';
+webpack(config, function(err, stat){
+
+})
